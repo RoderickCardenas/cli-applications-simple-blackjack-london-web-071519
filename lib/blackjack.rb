@@ -67,6 +67,6 @@ def runner
   until hit?(i) < 21
     hit?(initial_round)
   else
-    return 
+    return end_game()
 end
     
