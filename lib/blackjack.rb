@@ -63,6 +63,7 @@ def hit?(number)
 def runner
   welcome
   cardTotal= initial_round
+  until cardTotal > 21
 
 
 end
