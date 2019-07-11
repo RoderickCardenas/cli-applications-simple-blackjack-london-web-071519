@@ -63,7 +63,7 @@ def hit?(number)
 def runner
   welcome
   initial_round
-  hit?(deal_card)
-  end_game
+  hit?(initial_round)
+  until 
 end
     
