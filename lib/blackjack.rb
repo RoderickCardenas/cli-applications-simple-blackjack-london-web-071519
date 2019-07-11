@@ -69,12 +69,12 @@ def runner
   
   hit?(initial_round)
   if total < 21
-    until hit?(number) > 21
-      hit?(number)
+    until hit?(initial_round) > 21
+      hit?(total)
     end
   end
-  if hit?(number) > 21 
-    end_game(hit?(number))
+  if hit?(initial_round) > 21 
+    end_game(total)
   end
 end
     
