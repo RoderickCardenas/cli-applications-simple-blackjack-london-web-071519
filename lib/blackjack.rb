@@ -64,14 +64,14 @@ def runner
   welcome
   initial_round
   number = initial_round
-  hit?(number)
+  afterHit = hit?(number)
   if hit?(number) < 21
     until hit?(number) > 21
       hit?(number)
     end
   end
   if hit?(number) > 21 
-    end_game(number)
+    end_game(afterHit)
   end
 end
     
