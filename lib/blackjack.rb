@@ -67,6 +67,6 @@ def runner
     cardTotal = hit?(cardTotal)
     display_card_total(cardTotal)
   end
-  
+  end_game(cardTotal)
 end
     
