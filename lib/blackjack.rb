@@ -44,7 +44,6 @@ def hit?(number = 0)
     if input == 's' || 'h'
       if input == 's'
         number
-        binding.pry
       end
       
       if input == 'h'
