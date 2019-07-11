@@ -47,10 +47,10 @@ def hit?(number)
   end
   if get_user_input == 'h'
     deal_card + display_card_total
-  else
-  invalid_command
-  prompt_user
-  display_card_total
+    else
+    invalid_command
+    prompt_user
+    display_card_total
   end
 end
 
