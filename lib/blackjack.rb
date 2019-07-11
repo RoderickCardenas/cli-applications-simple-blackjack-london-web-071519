@@ -64,8 +64,8 @@ def runner
   welcome
   initial_round
   hit?(initial_round)
-  until hit? < 21
-  hit?
+  until hit?(Integer) < 21
+  hit?(Integer)
   end
   end_game
 end
