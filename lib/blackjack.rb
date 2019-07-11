@@ -40,11 +40,6 @@ def hit?(number)
   input = get_user_input
   newCard = deal_card
   number
-  newTotal = number + newCard
-    
-    if input == 'h'
-    newTotal
-    end
 end
 
 
