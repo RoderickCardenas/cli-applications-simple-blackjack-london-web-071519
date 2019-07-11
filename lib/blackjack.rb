@@ -42,7 +42,9 @@ def hit?(number)
   number
   newTotal = number + newCard
     
-
+    if input == 'h'
+    newTotal
+    end
 end
 
 
