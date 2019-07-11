@@ -67,6 +67,5 @@ def runner
       hit?(initial_round)
   end
   end_game()
-  end
 end
     
