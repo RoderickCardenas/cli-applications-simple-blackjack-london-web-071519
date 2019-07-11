@@ -63,6 +63,5 @@ def hit?(number)
 def runner
   welcome
   initial_round
-  binding.pry
 end
     
