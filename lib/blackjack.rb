@@ -41,7 +41,8 @@ def hit?(number = display_card_total(num))
   number
   
   if input == 'h'
-    deal_card
+    newCard = deal_card
+    number + newCard
   end
 end
 
