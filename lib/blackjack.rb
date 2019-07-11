@@ -36,17 +36,17 @@ def invalid_command
 end
 
 def hit?(number)
+  prompt_user
+  input = get_user_input
   newCard = deal_card
   total = number + newCard
-  prompt_user
-  get_user_input
   
-    if get_user_input == 's' || 'h'
-      if get_user_input == 's'
+    if input == 's' || 'h'
+      if input == 's'
         return number
       end
       
-      if get_user_input == 'h'
+      if input == 'h'
         total
       end
     else
