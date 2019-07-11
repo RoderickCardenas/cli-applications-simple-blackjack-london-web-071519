@@ -7,7 +7,7 @@ def deal_card
   rand(1..11)
 end
 
-def display_card_total(num)
+def display_card_total(num = 0)
   puts "Your cards add up to #{num}" 
 end
 
@@ -35,7 +35,7 @@ def invalid_command
   puts "Please enter a valid command"
 end
 
-def hit?(number)
+def hit?(number = 0)
   prompt_user
   input = get_user_input
   newCard = deal_card
