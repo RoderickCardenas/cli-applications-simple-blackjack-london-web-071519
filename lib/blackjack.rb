@@ -65,8 +65,10 @@ def runner
   initial_round
   number = initial_round
   display_card_total(number)
+  total = hit?(initial_round)
+  
   hit?(initial_round)
-  if hit?(number) < 21
+  if total < 21
     until hit?(number) > 21
       hit?(number)
     end
