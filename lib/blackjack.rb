@@ -65,6 +65,8 @@ def runner
   welcome
   initial_round
   until hit?(i) < 21
-    
+    hit?(initial_round)
+  else
+    return 
 end
     
