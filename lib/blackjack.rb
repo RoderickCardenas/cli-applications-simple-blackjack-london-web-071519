@@ -61,15 +61,15 @@ def hit?(number = 0)
 #####################################################
 
 def runner
-  # welcome
-  # initial_round
-  # hit?()
-  # if hit?() <= 21
-  #   until hit?() < 21
-  #     hit?()
-  #   end
-  # else
-  # end_game()
-  # end
+  welcome
+  initial_round
+  hit?()
+  if hit?() <= 21
+    until hit?() < 21
+      hit?()
+    end
+  else
+  end_game()
+  end
 end
     
