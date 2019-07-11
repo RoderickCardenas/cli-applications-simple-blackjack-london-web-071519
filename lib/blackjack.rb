@@ -67,7 +67,8 @@ def runner
   afterHit = hit?(number)
   if hit?(number) < 21
       hit?(number)
-    end
+      breka
+  end
   end
   if hit?(number) > 21 
     end_game(afterHit)
