@@ -19,7 +19,7 @@ def get_user_input
   gets.chomp
 end
 
-def end_game(num)
+def end_game(num = 0)
   puts "Sorry, you hit #{num}. Thanks for playing!"
 end
 
@@ -67,6 +67,6 @@ def runner
   until hit?() < 21
   hit?()
   end
-  end_game
+  end_game()
 end
     
