@@ -63,7 +63,6 @@ def hit?(number = 0)
 def runner
   welcome
   initial_round
-  display_card_total(initial_round)
   number = initial_round
   afterHit = hit?(number)
   if hit?(number) < 21
