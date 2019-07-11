@@ -62,6 +62,7 @@ def hit?(number)
 
 def runner
   welcome
-  hit?(initial_round)
+  initial_round
+  hit?()
 end
     
