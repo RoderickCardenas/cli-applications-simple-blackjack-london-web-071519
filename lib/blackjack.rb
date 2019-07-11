@@ -71,7 +71,6 @@ def runner
   end
   if hit?(number) < 21 
     end_game(number)
-    binding.pry
   end
 end
     
