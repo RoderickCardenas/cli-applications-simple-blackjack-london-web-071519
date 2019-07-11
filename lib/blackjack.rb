@@ -43,15 +43,15 @@ def hit?(number)
     else
     invalid_command
     prompt_user
-    display_card_total
+    display_card_total(number)
   end
   
   if get_user_input == 'h'
-    deal_card + display_card_total
+    deal_card + display_card_total(number)
     else
     invalid_command
     prompt_user
-    display_card_total
+    display_card_total(number)
   end
 end
 
