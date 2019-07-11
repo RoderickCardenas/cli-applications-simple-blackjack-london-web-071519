@@ -66,7 +66,8 @@ def runner
   hit?()
   if hit() <= 21
     until hit?() < 21
-    hit?()
+      hit?()
+    end
   else
   end_game()
   end
