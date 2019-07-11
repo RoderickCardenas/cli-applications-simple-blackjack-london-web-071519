@@ -43,7 +43,7 @@ def hit?(number = 0)
   
     if input == 's' || 'h'
       if input == 's'
-        number
+        return number
       end
       
       if input == 'h'
