@@ -40,26 +40,16 @@ def hit?(number = 0)
   input = get_user_input
   newCard = deal_card
   total = number + newCard
-  bust = total + newCard
   
-    while input == 's' || 'h'
+    if input == 's' || 'h'
       if input == 's'
-        number
-        prompt_user
-        input
-      break if input == 'h'
+        return number
       end
       
       if input == 'h'
         total
-        prompt_user
-        input
-        newCard
-        bust
-        break if bust > 21
       end
-    end
-    unless input == 's' || 'h'
+    else
       invalid_command
       number
     end
