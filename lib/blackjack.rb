@@ -39,7 +39,7 @@ def hit?(number = 0)
   prompt_user
   input = get_user_input
   newCard = deal_card
-  number
+  total = number + newCard
   
     if input == 's' || 'h'
       if input == 's'
@@ -47,11 +47,11 @@ def hit?(number = 0)
       end
       
       if input == 'h'
-        number + newCard
+        total
       end
     else
       invalid_command
-       number
+      number
     end
   end
 
