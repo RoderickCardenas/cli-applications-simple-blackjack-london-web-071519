@@ -43,7 +43,10 @@ def hit?(number = 0)
   
     while input == 's' || 'h'
       if input == 's'
-        return number
+        number
+        prompt_user
+        input
+      break if input == 'h'
       end
       
       if input == 'h'
