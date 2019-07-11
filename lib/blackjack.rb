@@ -63,7 +63,7 @@ def hit?(number)
 def runner
   welcome
   initial_round
-  hit?
+  hit?(number)
   display_card_total
 end
     
