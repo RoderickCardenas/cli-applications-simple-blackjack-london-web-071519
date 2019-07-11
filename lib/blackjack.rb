@@ -64,9 +64,11 @@ def runner
   welcome
   initial_round
   hit?()
-  until hit?() < 21
-  hit?()
-  end
+  if hit() <= 21
+    until hit?() < 21
+    hit?()
+  else
   end_game()
+  end
 end
     
