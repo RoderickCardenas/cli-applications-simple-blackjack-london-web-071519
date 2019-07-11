@@ -69,7 +69,6 @@ def runner
       hit?(number)
   break if hit?(number) > 21
   end
-  end
   if hit?(number) > 21 
     end_game(afterHit)
   end
