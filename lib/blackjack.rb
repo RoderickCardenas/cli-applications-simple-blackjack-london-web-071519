@@ -61,7 +61,10 @@ def hit?(number)
 #####################################################
 
 def runner
+  i = 0
   welcome
   initial_round
+  until hit?(i) < 21
+    
 end
     
