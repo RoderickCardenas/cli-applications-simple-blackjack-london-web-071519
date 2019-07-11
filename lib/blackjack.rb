@@ -31,8 +31,11 @@ display_card_total(total)
 total
 end
 
-def hit?
-  # code hit? here
+def hit?(number)
+  promt_user
+  input = get_user_input
+  if input == 's'
+  elsif input == 'h'
 end
 
 def invalid_command
