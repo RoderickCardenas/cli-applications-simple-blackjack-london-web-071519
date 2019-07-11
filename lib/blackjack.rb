@@ -66,7 +66,6 @@ def runner
   number = initial_round
   afterHit = hit?(number)
   if hit?(number) < 21
-    until hit?(number) > 21
       hit?(number)
     end
   end
