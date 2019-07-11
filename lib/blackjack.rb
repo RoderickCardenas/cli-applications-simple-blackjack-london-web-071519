@@ -41,16 +41,18 @@ def hit?(number)
   newCard = deal_card
   number
   
-  if input == 's' || 'h'
-    if input == 's'
+    if input == 's' || 'h'
+      if input == 's'
+        return number
+      end
+      
+      if input == 'h'
+        return number + newCard
+      end
+    else
+      invalid_command
       return number
     end
-    
-    if input == 'h'
-      return number + newCard
-    end
-    
-    if input 
   end
 
 
