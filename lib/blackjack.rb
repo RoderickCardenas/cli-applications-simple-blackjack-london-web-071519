@@ -28,7 +28,7 @@ num1 = deal_card
 num2 = deal_card
 total = num1 + num2
 firstRound = display_card_total(total)
-return firstRound
+binding.pry
 end
 
 def hit?
