@@ -53,6 +53,7 @@ def hit?(number = 0)
       invalid_command
       number
     end
+  prompt_user
   end
 
 
