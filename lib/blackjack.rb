@@ -62,8 +62,7 @@ def hit?(number)
 
 def runner
   welcome
-  initial_round
-  number = initial_round
+  cardTotal= initial_round
   display_card_total(number)
   total = hit?(initial_round)
   
