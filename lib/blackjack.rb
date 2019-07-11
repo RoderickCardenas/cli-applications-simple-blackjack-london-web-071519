@@ -63,9 +63,6 @@ def hit?(number)
 def runner
   welcome
   initial_round
-  until display_card_total() < 21
   binding.pry
-  hit?(number)
-  end
 end
     
