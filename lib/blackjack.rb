@@ -43,11 +43,12 @@ def hit?(number = 0)
   
     if input == 's' || 'h'
       if input == 's'
-        return number
+        number
+        prompt_user
       end
       
       if input == 'h'
-        return number + newCard
+        number + newCard
       end
     else
       invalid_command
@@ -61,15 +62,15 @@ def hit?(number = 0)
 #####################################################
 
 def runner
-  welcome
-  initial_round
-  hit?()
-  if hit?() <= 21
-    until hit?() < 21
-      hit?()
-    end
-  else
-  end_game()
-  end
+  # welcome
+  # initial_round
+  # hit?()
+  # if hit?() <= 21
+  #   until hit?() < 21
+  #     hit?()
+  #   end
+  # else
+  # end_game()
+  # end
 end
     
