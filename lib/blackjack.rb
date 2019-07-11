@@ -63,10 +63,8 @@ def hit?(number = 0)
 def runner
   welcome
   hit?(initial_round)
-  
-  if hit?() <= 21
-    until hit?() < 21
-      hit?()
+  until hit?(intial_round) < 21
+      hit?(initial_round)
     end
   else
   end_game()
