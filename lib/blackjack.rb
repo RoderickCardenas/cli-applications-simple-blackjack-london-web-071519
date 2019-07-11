@@ -40,7 +40,18 @@ def hit?(number)
   input = get_user_input
   newCard = deal_card
   number
-end
+  
+  if input == 's' || 'h'
+    if input == 's'
+      return number
+    end
+    
+    if input == 'h'
+      return number + newCard
+    end
+    
+    if input 
+  end
 
 
 #####################################################
