@@ -35,11 +35,11 @@ def invalid_command
   puts "Please enter a valid command"
 end
 
-def hit?(number = 0)
-  prompt_user
-  get_user_input
+def hit?(number)
   newCard = deal_card
   total = number + newCard
+  prompt_user
+  get_user_input
   
     if get_user_input == 's' || 'h'
       if get_user_input == 's'
