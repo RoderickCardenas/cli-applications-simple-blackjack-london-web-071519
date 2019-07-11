@@ -41,7 +41,7 @@ def hit?(number = 0)
   newCard = deal_card
   total = number + newCard
   
-    if input == 's' || 'h'
+    while input == 's' || 'h'
       if input == 's'
         return number
       end
