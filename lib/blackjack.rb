@@ -49,6 +49,7 @@ def hit?(number = 0)
       if input == 'h'
         total
       end
+    end
     unless input == 's' || 'h'
       invalid_command
       number
